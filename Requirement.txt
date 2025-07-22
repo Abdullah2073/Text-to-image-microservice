@@ -1,0 +1,16 @@
+# Core dependencies
+torch==2.7.0+cpu --index-url https://download.pytorch.org/whl/cpu
+diffusers==0.33.1
+transformers==4.51.3
+accelerate==0.34.0
+tokenizers==0.21.0
+
+# gRPC dependencies
+grpcio==1.71.0
+grpcio-tools==1.71.0
+
+# Image processing
+Pillow
+
+# Optional (for logging, testing, etc.)
+protobuf>=3.20.0
